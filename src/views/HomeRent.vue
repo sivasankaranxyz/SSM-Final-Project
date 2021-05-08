@@ -1,23 +1,24 @@
 <template>
-<div>
   <Header sitename="Homes" />
-  <HelloWorld />
+  <HomeDetail />
   <HomeList />
-  </div >
 </template>
 
 <script>
-// @ is an alias to /src
 import Header from "@/components/Header.vue";
-import HelloWorld from "@/components/HelloWorld.vue";
+import HomeDetail from "@/components/HomeDetail.vue";
 import HomeList from "@/components/HomeList.vue";
 
 export default {
-  name: "Home",
+  name: "HomeRent",
   components: {
     Header,
-    HelloWorld,
+    HomeDetail,
     HomeList,
   },
+  props: {},
 };
 </script>
+
+<style>
+</style>
