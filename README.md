@@ -11,7 +11,8 @@ Global real estate (RE) investments is one the reliable investment in terms of t
 ## Project setup
 
 The frontend is made with [vuejs 3](https://v3.vuejs.org/) and [Tailwind Css](https://tailwindcss.com/)
-The smart contracts are tested with [Truffle Suit](https://www.trufflesuite.com/) and is deployed with [Remix ide](http://remix.ethereum.org/)
+The smart contracts are tested with [Metamask](https://metamask.io/) [Truffle Suit](https://www.trufflesuite.com/) and is deployed to the Ropsten Ethereum test network with [Remix ide](http://remix.ethereum.org/). You can get free ether for deploying your contracts from [Ropsten Ethereum Faucet](https://faucet.ropsten.be/)
+SSM Token Contract deployed at [https://ropsten.etherscan.io/token/0x72d43a20ab92be949007853ef1b20f243ac1d1a2](https://ropsten.etherscan.io/token/0x72d43a20ab92be949007853ef1b20f243ac1d1a2)
 
 ```
 npm install //use this command to all the project depedencies
